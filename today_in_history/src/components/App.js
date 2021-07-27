@@ -1,4 +1,5 @@
 import logo from '../assets/logo.svg';
+import MainCard from './MainCard';
 import '../styles/App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                     Learn React
                 </a>
             </header>
+            <MainCard />
         </div>
     );
 }
