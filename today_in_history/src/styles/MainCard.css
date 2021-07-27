@@ -1,0 +1,12 @@
+.cardContainer {
+    display: flex;
+    width: 50vw;
+    min-width: 100px;
+    height: 50vh;
+    min-height: 200px;
+    background: linear-gradient(
+        to top right,
+        rgba(4, 84, 121, 0.315),
+        rgba(4, 84, 121, 0.2)
+    );
+}
