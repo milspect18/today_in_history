@@ -1,4 +1,3 @@
-import logo from '../assets/logo.svg';
 import MainCard from './MainCard';
 import '../styles/App.css';
 
