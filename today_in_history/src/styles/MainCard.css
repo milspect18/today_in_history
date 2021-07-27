@@ -13,4 +13,5 @@
     border-radius: 2rem;
     border: solid rgba(255, 255, 255, 0.65) 1px;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
 }
