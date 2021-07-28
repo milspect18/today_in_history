@@ -1,14 +1,18 @@
 .eventTitleBlockContainer {
     display: flex;
     flex-direction: column;
+    max-height: 33%;
     padding: 0.85rem 1.7rem;
-    align-items: flex-end;
+    text-align: end;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(2rem);
 }
 
 .eventTitle {
-    font-size: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.75rem;
     font-weight: bold;
     font-family: 'Baloo Chettan 2', cursive;
     margin-bottom: -0.35rem;;
