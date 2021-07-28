@@ -1,0 +1,22 @@
+.eventTitleBlockContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.85rem 1.7rem;
+    align-items: flex-end;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2rem);
+}
+
+.eventTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin-bottom: -0.35rem;;
+}
+
+.eventDate {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: gray;
+}
