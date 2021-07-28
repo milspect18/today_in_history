@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/EventTitleBlock.css';
 
-const EventTileBlock = ({ eventName, eventDate, ...props }) => {
+const EventTitleBlock = ({ eventName, eventDate, ...props }) => {
     return (
         <div className="eventTitleBlockContainer">
             <div className="eventTitle">
@@ -14,4 +14,4 @@ const EventTileBlock = ({ eventName, eventDate, ...props }) => {
     )
 }
 
-export default EventTileBlock;
+export default EventTitleBlock;

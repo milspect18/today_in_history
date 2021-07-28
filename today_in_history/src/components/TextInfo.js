@@ -1,11 +1,11 @@
 import React from 'react';
-import EventTileBlock from './EventTitleBlock';
+import EventTitleBlock from './EventTitleBlock';
 import '../styles/TextInfo.css';
 
 const TextInfo = ({ eventDetails, ...props}) => {
     return (
         <div className="textInfoContainer">
-            <EventTileBlock />
+            <EventTitleBlock />
         </div>
     )
 }
