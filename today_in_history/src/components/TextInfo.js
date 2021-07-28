@@ -5,7 +5,10 @@ import '../styles/TextInfo.css';
 const TextInfo = ({ eventDetails, ...props}) => {
     return (
         <div className="textInfoContainer">
-            <EventTitleBlock />
+            <EventTitleBlock
+                eventName={eventDetails?.name}
+                eventDate={eventDetails?.date}
+            />
         </div>
     )
 }
