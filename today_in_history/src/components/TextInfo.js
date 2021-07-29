@@ -1,5 +1,6 @@
 import React from 'react';
 import EventTitleBlock from './EventTitleBlock';
+import EventInfo from './EventInfo';
 import '../styles/TextInfo.css';
 
 const TextInfo = ({ eventDetails, ...props}) => {
@@ -9,6 +10,8 @@ const TextInfo = ({ eventDetails, ...props}) => {
                 eventName={eventDetails?.name}
                 eventDate={eventDetails?.date}
             />
+
+            <EventInfo info={eventDetails?.info} />
         </div>
     )
 }
