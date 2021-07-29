@@ -3,7 +3,7 @@ import EventTitleBlock from './EventTitleBlock';
 import EventInfo from './EventInfo';
 import '../styles/TextInfo.css';
 
-const TextInfo = ({ eventDetails, ...props}) => {
+const EventTextContent = ({ eventDetails, ...props}) => {
     return (
         <div className="textInfoContainer">
             <EventTitleBlock
@@ -16,4 +16,4 @@ const TextInfo = ({ eventDetails, ...props}) => {
     )
 }
 
-export default TextInfo;
+export default EventTextContent;

@@ -1,6 +1,6 @@
 import MainCard from './MainCard';
 import EventImage from './EventImage';
-import TextInfo  from './EventTextContent';
+import EventTextContent  from './EventTextContent';
 import '../styles/App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <div className="appContainer">
             <MainCard>
                 <EventImage />
-                <TextInfo />
+                <EventTextContent />
             </MainCard>
         </div>
     );
