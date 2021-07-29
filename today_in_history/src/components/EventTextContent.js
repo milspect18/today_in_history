@@ -1,7 +1,7 @@
 import React from 'react';
 import EventTitleBlock from './EventTitleBlock';
 import EventInfo from './EventInfo';
-import '../styles/TextInfo.css';
+import '../styles/EventTextContent.css';
 
 const EventTextContent = ({ eventDetails, ...props}) => {
     return (
