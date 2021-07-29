@@ -5,7 +5,7 @@ import '../styles/EventTextContent.css';
 
 const EventTextContent = ({ eventDetails, ...props}) => {
     return (
-        <div className="textInfoContainer">
+        <div className="eventTextContentContainer">
             <EventTitleBlock
                 eventName={eventDetails?.name}
                 eventDate={eventDetails?.date}
