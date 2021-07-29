@@ -1,6 +1,6 @@
 import MainCard from './MainCard';
 import EventImage from './EventImage';
-import TextInfo  from './TextInfo';
+import TextInfo  from './EventTextContent';
 import '../styles/App.css';
 
 function App() {
