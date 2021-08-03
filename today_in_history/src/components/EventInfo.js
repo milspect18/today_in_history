@@ -5,7 +5,7 @@ import '../styles/EventInfo.css';
 const EventInfo = ({ info }) => {
     return (
         <div className="eventInfoContainer">
-            <text>{info || "Event Info"}</text>
+            {info || "Event Info"}
         </div>
     )
 }
